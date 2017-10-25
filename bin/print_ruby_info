@@ -1,14 +1,6 @@
 #!/usr/bin/env ruby
 
-# Trap ^C
-Signal.trap("INT") {
-  puts "\nCtrl-C detected. Exiting..."
-  sleep 1
-  exit
-}
-
-$:.unshift(File.expand_path("../../lib", __FILE__))
-require "print_ruby_info"
-require "print_ruby_info/cli"
-
-PrintRubyInfo::CLI.start(ARGV)
+puts "RUBY_VERSION #{RUBY_VERSION}"
+puts File.expand_path("../../../bin/print_ruby_info", __FILE__)
+puts "LOAD_PATH:"
+puts $:
