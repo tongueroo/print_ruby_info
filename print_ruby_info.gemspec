@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = PrintRubyInfo::VERSION
   spec.authors       = ["Tung Nguyen"]
   spec.email         = ["tongueroo@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{Silly command to print out ruby info for debugging ruby env}
+  spec.summary       = %q{Silly command to print out ruby info for debugging ruby env}
   spec.homepage      = ""
   spec.license       = "MIT"
 

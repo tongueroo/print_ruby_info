@@ -2,9 +2,9 @@ module PrintRubyInfo
   class CLI < Command
     class Help
       class << self
-        def hello
+        def info
 <<-EOL
-Hello world example
+Prints out some ruby info
 EOL
         end
       end
